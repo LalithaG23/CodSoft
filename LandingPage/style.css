@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+    background-color:rgb(20, 20, 20);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 75px;
+    min-height: 500px;
+    margin-right: 350px;
+    font-size: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 175px;
+    height: auto;
+}
+.pic1 img{
+
+    width: 470px;
+    height: auto;
+    position: absolute;
+    padding-left: 550px;
+    padding-top: 13%;
+    
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.para{
+    
+    background-color:rgb(20, 20, 20);
+}
+.title{
+    position: absolute;
+    top:37%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+}
+.us{
+    position: absolute;
+    top:85%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+}
+.title h2{
+    color:#fff;
+    font-size: 70px;
+}
+
+.us h2{
+    color:#fff;
+    font-size: 70px;
+}
+.button1{
+    position: absolute;
+    top: 52%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+}
+.button2{
+    position: absolute;
+    top: 59%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+   
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
