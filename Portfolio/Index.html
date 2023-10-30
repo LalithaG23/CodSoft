@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+    <script src="https://kit.fontawesome.com/7f56df2786.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certificate">Certification</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="theme.png" class="theme" align="right">
+            <div class="header-text">
+                <p>Python Developer</p>
+                <h1>Hi, I'm <span>Lalitha</span> </h1>
+                
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pic1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>An aspiring B.E. Computer Science Engineering student embodies the perfect fusion of relentless determination and boundless creativity. With a passion for deciphering the intricate codes that underpin our digital world, they embark on a journey to unravel the mysteries of technology and innovation.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Internship')">Internship</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Python/Django</span><br>Python MySql Connection, Web Development, OOPS</li>
+                            <li><span>Html & css</span><br>Web Development</li>
+                            <li><span>Robotic Process Automation</span><br>UiPath</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Internship">
+                        <ul>
+                            <li><span>Python with ML</span><br>At Unique Technologies</li>
+                            <li><span>Web Development</span><br>At CodSoft</li>
+                            <li><span>Python Programming</span><br>At Codeclause</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.E. Computer Science And Enginnering</li>
+                            <li><span>2019-2020</span><br>12th Grade - 76.5%</li>
+                            <li><span>2017-2018</span><br>10th Grade - 91.6</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="certificate">
+        <div class="container">
+            <h1 class="subtitle">Certification</h1>
+            <div class="certificate-list">
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>PYTHON/DJANGO</h2>
+                    <p>Certified as Python Programmer <br> From ACCORD INFO MATRIX. <br><br>Python programming with Django is a powerful and popular combination for web development. Django is a high-level, open-source web framework that simplifies and speeds up the process of building web applications.</p>
+                    <a href="https://drive.google.com/file/d/1u4cysGOtiItsdXWO6KzKgPYVDujIPaT6/view?usp=sharing">View</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>PROBLEM SOLVING</h2>
+                    <p>PROBLEM SOLVING USING COMPUTATIONAL THINKING<br><br>Completed Problem Solving Using Computational Thinking<br>From COURSERA authorized by University of Michigan.</p>
+                    <a href="https://drive.google.com/file/d/1rGf1BA_IiFwgj6hrADN1bW9JneAKkxcC/view?usp=sharing">View</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>CHATGPT</h2>
+                    <p>Completed ChatGpt course<br>From GUVI.<br><br>A "ChatGPT prompt engineer" course is a specialized training program designed to teach individuals how to effectively craft prompts and queries for ChatGPT, a powerful language model developed by OpenAI.</p>
+                    <a href="https://drive.google.com/file/d/1iDHzaCMp17C9u8v-t-RYONEWEdFePegQ/view?usp=sharing">View</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="face.jpg">
+                    <div class="layer">
+                        <h3>ATTENDANCE MANAGEMENT SYSTEM</h3>
+                        <p>Attendance Management System Using Face Recognition: An innovative solution for streamlined attendance tracking, this system utilizes facial recognition technology to automate and enhance the efficiency of attendance recording in various educational and corporate settings.</p>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="iot.jpg">
+                    <div class="layer">
+                        <h3>SMARTCITY WASTE MANAGEMENT</h3>
+                        <p>Smart City Waste Management with Connected Trash Cans: This project harnesses IoT technology to create a smart waste management system, enabling real-time monitoring and optimization of trash collection by connecting and coordinating waste bins throughout a city.</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="dc.jpg">
+                    <div class="layer">
+                        <h3>DATA COLLECTOR APP</h3>
+                        <p>Data Collector App Using Python Django: A versatile data collection application built on Python's Django framework, designed to facilitate efficient data gathering, storage, and analysis for a wide range of research and business needs.</p>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <a href="https://github.com/LalithaG23?tab=repositories" class="btn">See more</a>
+        </div>
+
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="left">
+                    <h1 class="subtitle">Contact Info</h1>
+                    <p><i class="fa-regular fa-envelope"></i>srilalitha200@gmail.com</p>
+                    <p><i class="fa-regular fa-phone"></i>+91 8248869638</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/lalitha2002"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/lakshitha___23?utm_source=qr&igshid=MThlNWY1MzQwNA=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/LalithaG23"><i class="fa-brands fa-github"></i></a></li>
+                    </div>
+                </div>
+                <div class="right">
+                    <a href="LALITHA GOVINDARAJAN.pdf" download class="btn btn2">Download CV</a>
+                    <h3>THANK YOU!</h3>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Lalitha<i class="fa-solid fa-heart"></i>.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+
+    
+</body>
+</html>
